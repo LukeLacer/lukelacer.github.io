@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+    text-shadow: 1px 2px #0EB36D;
+    cursor: pointer;
 }
 
 body {
@@ -16,10 +28,7 @@ body {
     font-family: sans-serif;
 }
 
-.nome {
-    margin: 0;
-}
-
+/*
 footer {
     position: absolute;
     bottom: 0;
@@ -38,16 +47,18 @@ footer a {
     font-weight: bold;
 }
 
+
 footer a:hover{
     text-shadow: 1px 1px #0EB36D;
 }
+*/
 
 h1 {
     font-family: IBM Plex Mono, monospace;
     font-size: 110px;
   }
 
-/*THIS IS FOR TYPEWRITER EFFECT*/
+/*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
 span {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
@@ -58,4 +69,27 @@ span {
         border-color: transparent;
     }
 }
-/*THIS IS FOR TYPEWRITER EFFECT*/
+/*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
+
+.top {
+    font-size: 17px;
+    position: fixed;
+    top: 0.5em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.top__bar {
+    list-style: none;
+    display: flex;
+}
+
+.top__item {
+    margin-right: 10vw;
+}
+
+.top__item--last {
+    margin-right: 0;
+}
