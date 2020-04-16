@@ -28,32 +28,7 @@ body {
     font-family: sans-serif;
 }
 
-/*
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-    text-align: center;
-    font-size: 12px;
-    padding: 5px;
-    background: #e4e4e4;
-    display: flex;
-    justify-content: space-between;
-}
-
-footer a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-
-footer a:hover{
-    text-shadow: 1px 1px #0EB36D;
-}
-*/
-
-h1 {
+.nome h1 {
     font-family: IBM Plex Mono, monospace;
     font-size: 110px;
   }
