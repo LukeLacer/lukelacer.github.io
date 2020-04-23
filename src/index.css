@@ -1,36 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    min-height: 100vh;
-    width: 100vw;
-    position: relative;
     background-color: tomato;
-    display: flex;
-    align-items: center;
     font-family: sans-serif;
 }
 
-.nome h1 {
-    font-family: IBM Plex Mono, monospace;
-    font-size: 110px;
-  }
-
-/*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
-span {
-    border-right: .05em solid;
-    animation: caret 1s steps(1) infinite;
+.container {
+    margin-top: 3em;
 }
-  
-@keyframes caret {
-    50% {
-        border-color: transparent;
-    }
-}
-/*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/

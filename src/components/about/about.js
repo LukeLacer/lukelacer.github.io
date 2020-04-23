@@ -3,9 +3,9 @@ import './about.css';
 
 function about() {
   return (
-    <div className="about">
-      Essa tela é sobre Lucas Lacerda de Lima
-    </div>
+      <div class="container">
+        <p>Essa tela é sobre Lucas Lacerda de Lima</p>
+      </div>
   );
 }
 

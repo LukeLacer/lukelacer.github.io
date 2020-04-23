@@ -3,9 +3,9 @@ import './hobbies.css';
 
 function hobbies() {
   return (
-    <div className="hobbies">
+      <div class="container">
         Essa é a tela de Hobbies
-    </div>
+      </div>
   );
 }
 

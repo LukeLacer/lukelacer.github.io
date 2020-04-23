@@ -3,9 +3,9 @@ import './contact.css';
 
 function contact() {
   return (
-    <div className="contact">
+      <div class="container">
         Essa é a tela de contatos
-    </div>
+      </div>
   );
 }
 
