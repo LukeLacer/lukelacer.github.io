@@ -1,3 +1,13 @@
+a:hover {
+    text-shadow: 1px 2px #0EB36D;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
 
 body {
     background-color: tomato;

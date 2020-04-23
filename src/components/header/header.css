@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-a:hover {
-    text-shadow: 1px 2px #0EB36D;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-
 .top {
     font-size: 17px;
     top: 0.5em;
