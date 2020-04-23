@@ -13,6 +13,17 @@ a {
     color: black;
 }
 
+link:hover {
+    text-shadow: 1px 2px #0EB36D;
+    cursor: pointer;
+}
+
+link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
 a:hover {
     text-shadow: 1px 2px #0EB36D;
     cursor: pointer;
@@ -27,24 +38,6 @@ body {
     align-items: center;
     font-family: sans-serif;
 }
-
-.nome h1 {
-    font-family: IBM Plex Mono, monospace;
-    font-size: 110px;
-  }
-
-/*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
-span {
-    border-right: .05em solid;
-    animation: caret 1s steps(1) infinite;
-}
-  
-@keyframes caret {
-    50% {
-        border-color: transparent;
-    }
-}
-/*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
 
 .top {
     font-size: 17px;
