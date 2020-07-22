@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = ["Front-End.", "Web Development.", "Lucas L Lima."]; //array with texts to type in typewriter
+  var dataText = ["Web Development.", "Programação.", "Lucas L Lima."]; //array with texts to type in typewriter
   const b_words = 3000; //pause time between words
   const b_letters = 200; //pause time between letters
   
