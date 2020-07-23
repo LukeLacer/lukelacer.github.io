@@ -27,19 +27,6 @@ body {
     box-sizing: border-box;
 }
 
-.nome {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    display: flex;
-}
-
-.nome h1 {
-    font-family: IBM Plex Mono, monospace;
-    font-size: 110px;
-  }
-
 .top {
     font-size: 17px;
     top: 0.5em;
@@ -71,9 +58,6 @@ body {
     margin-bottom: 1em;
     display: flex;
     justify-content: space-evenly;
-}
-
-.redes {
     background-color: #0EB36D;
 }
 
