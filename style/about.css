@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 a:hover {
     text-shadow: 1px 2px #0EB36D;
     cursor: pointer;
@@ -19,12 +25,6 @@ body {
 
 .container {
     margin-top: 3em;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .top {
@@ -51,11 +51,28 @@ body {
 }
 
 /*Skill Cards*/
+
+@media (max-width: 1000px) {
+    .description {
+        display: none;
+    }
+}
+
+.skills {
+    position: fixed;
+    width: 70%;
+    height: 500px;
+    overflow: auto;
+    border: solid 2px;
+    left: 15vw;
+}
+
 .card {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    margin: 1em;
+    overflow: hidden;
+    float: left;
+    height: 16.1vw;
+    width: 23%;
+    margin: 1em 1%;
     padding: 0.3em;
     border-style: solid;
 }
@@ -64,5 +81,9 @@ body {
     font-weight: bold;
 }
 .card .description {
-    font-size: 0.8em;
+    font-size: 0.9em;
+}
+
+.tags {
+    font-size: 0.7em;
 }
