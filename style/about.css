@@ -68,7 +68,6 @@ p {
 }
 
 .hard {
-    position: fixed;
     width: 70%;
     height: 17vw;
     overflow: auto;
