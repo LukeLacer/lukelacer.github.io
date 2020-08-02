@@ -57,13 +57,21 @@ body {
         display: none;
     }
 }
+.container{
+    margin-left: 15vw;
+}
 
-.skills {
+p {
+    margin: 20px;
+    text-align: justify;
+    width: 70%;
+}
+
+.hard {
     position: fixed;
     width: 70%;
-    height: 500px;
+    height: 17vw;
     overflow: auto;
-    border: solid 2px;
     left: 15vw;
 }
 
@@ -72,18 +80,34 @@ body {
     float: left;
     height: 16.1vw;
     width: 23%;
-    margin: 1em 1%;
+    margin: 0.5em 1%;
     padding: 0.3em;
-    border-style: solid;
+    background-color: orangered;
 }
 
 .card .title {
     font-weight: bold;
 }
 .card .description {
+    margin-top: 5%;
     font-size: 0.9em;
 }
 
-.tags {
+.tag {
     font-size: 0.7em;
+    background-color: #0EB36D;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 1% 2px;
+    float: left;
+}
+
+.level {
+    margin-top: 5%;
+    display: inline-block;
+    background-color: #2e8b56;
+    width: 15%;
+    height: 1em;
+    border-radius: 5px 0 5px 0;
+    text-align: center;
 }
