@@ -25,6 +25,7 @@ body {
 
 .container {
     margin-top: 3em;
+    margin-left: 3em;
 }
 
 .top {
@@ -57,9 +58,6 @@ body {
         display: none;
     }
 }
-.container{
-    margin-left: 15vw;
-}
 
 p {
     margin: 20px;
@@ -68,18 +66,19 @@ p {
 }
 
 .hard {
-    width: 70%;
-    height: 17vw;
+    width: 80%;
+    height: 250px;
     overflow: auto;
     left: 15vw;
 }
 
 .card {
+    position: relative;
     overflow: hidden;
     float: left;
-    height: 16.1vw;
-    width: 23%;
-    margin: 0.5em 1%;
+    height: 200px;
+    width: 200px;
+    margin: 0.5em 5px;
     padding: 0.3em;
     background-color: orangered;
 }
@@ -106,7 +105,12 @@ p {
     display: inline-block;
     background-color: #2e8b56;
     width: 15%;
-    height: 1em;
+    height: 2em;
     border-radius: 5px 0 5px 0;
     text-align: center;
+}
+
+.tags {
+    position: absolute;
+    bottom: 5px;
 }
