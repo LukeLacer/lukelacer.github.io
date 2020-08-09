@@ -1,2 +1,14 @@
-# lukelacer.github.io
-My portfolio and main site
+<h1 align="center">
+<br>
+  <img src="./image/logotipo.svg" alt="lukelacer.github.io" width="120">
+<br>
+<br>
+Portfolio & ShowCase Site
+</h1>
+
+<p align="center">This project is for my personal content and show me 😜 </p>
+
+## Getting started
+
+If you wanna see my site, just click in this link: <a href="lukelacer.github.io">lukelacer.github.io</a>
+The site is simplified for everyone understand and enjoy the code for any purposes they want. This is a static site, with no SPA or big features, this is just HTML, CSS and Javascript for a little of sparkle things. 🎇
