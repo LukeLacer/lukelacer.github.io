@@ -11,4 +11,4 @@ Portfolio & ShowCase Site
 ## Getting started
 
 If you wanna see my site, just click in this link: <a href="lukelacer.github.io">lukelacer.github.io</a>.
-The site is simplified for everyone understand and enjoy the code for any purposes they want. This is a static site, with no SPA or big features, this is just HTML, CSS and Javascript for a little of sparkle things. :tada:
+The site is simplified for everyone understand and enjoy the code for any purposes they want. This is a static site, with no SPA or big features, this is just HTML, CSS and Javascript for a little of sparkle things. :fireworks:
