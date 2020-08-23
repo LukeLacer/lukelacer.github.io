@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+header {
+    height: 100px;
+    background-color: tomato;
+}
+
+.logo {
+    position: fixed;
+    width: 100%;
+}
+
+.logo a {
+    position: fixed;
+    margin: 5px 0 0 5px;
+    width: 80px;
+    height: 80px;
+}
+
 a:hover {
     text-shadow: 1px 2px #0EB36D;
     cursor: pointer;
@@ -18,7 +35,7 @@ body {
 }
 
 .container {
-    margin-top: 3em;
+    margin-left: 3em;
 }
 
 * {
@@ -29,7 +46,7 @@ body {
 
 .nome {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 100px);
     display: flex;
     align-items: center;
 }
@@ -37,16 +54,22 @@ body {
 .nome h1 {
     font-family: IBM Plex Mono, monospace;
     font-size: 110px;
-  }
+}
+
+.top i {
+    display: none;
+}
 
 .top {
     font-size: 1.2em;
     top: 0.5em;
-    width: 100vw;
+    width: calc(100vw - 90px);
     position: fixed;
+    left: 90px;
+    top: 35px;
     display: flex;
     justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 .top__bar {
@@ -74,3 +97,20 @@ span {
     }
 }
 /*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
+
+@media (max-width: 700px) {
+    .nome h1 {
+        font-size: 50px;
+    }
+
+    .top i {
+        display: block;
+        position: fixed;
+        right: 5px;
+    }
+  
+    .top__bar {
+        display: none;
+    }
+  
+}
