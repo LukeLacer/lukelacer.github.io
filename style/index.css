@@ -69,7 +69,7 @@ body {
     top: 35px;
     display: flex;
     justify-content: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 .top__bar {
@@ -99,6 +99,10 @@ span {
 /*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
 
 @media (max-width: 700px) {
+    .nome h1 {
+        font-size: 50px;
+    }
+
     .top i {
         display: block;
         position: fixed;
@@ -109,4 +113,4 @@ span {
         display: none;
     }
   
-  }
+}
