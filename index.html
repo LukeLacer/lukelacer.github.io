@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="./image/logotipo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="./js/typing.js"></script>
-    <link type="text/css" rel="stylesheet" href="./style/index.css">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="./style/contact.css">
+    <link type="text/css" rel="stylesheet" href="./style/about.css">
+    <link type="text/css" rel="stylesheet" href="./style/index.css">
     <title>Lucas L Lima</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <div class="logo">
-        <a href="index.html"><img src="./image/logotipo.svg" alt="Logotipo do site"></a>
-      </div>
-      <nav class="top">
-        <i class="fas fa-bars fa-lg"></i>
-        <ul class="top__bar">
-          <li class="top__item">
-            <a href="about.html">SOBRE</a>
-          </li>
-          <li class="top__item">
-            <a href="contact.html">CONTATO</a>
-          </li>
-          <li class="top__item">
-            <a href="works.html">PROJETOS</a>
-          </li>
-          <li class="top__item top__item--last">
-            <a href="hobbies.html">HOBBIES</a>
-          </li>
-        </ul>
-      </nav>
+        <div class="logo">
+            <a href="home.html"><img src="./image/logotipo.svg" alt="Logotipo do site"></a>
+        </div>
+        <nav class="top">
+            <i class="fas fa-bars fa-lg"></i>
+            <ul class="top__bar">
+                <li class="top__item">
+                    <a href="about.html">SOBRE</a>
+                </li>
+                <li class="top__item">
+                    <a href="contact.html">CONTATO</a>
+                </li>
+                <li class="top__item">
+                    <a href="works.html">PROJETOS</a>
+                </li>
+                <li class="top__item top__item--last">
+                    <a href="hobbies.html">HOBBIES</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <div class="nome">
-      <h1>Lucas L Lima</h1>
-    </div>
-  </body>
+    <section id="conteudo">
+        <div class="nome">
+            <h1>Lucas L Lima</h1>
+        </div>
+    </section>
+
+
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            const conteudo = document.getElementById('conteudo')
+
+            link.onclick = function(e) {
+                e.preventDefault()
+                fetch(link.href)
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+
+</body>
+
 </html>
