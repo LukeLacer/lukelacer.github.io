@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
 
 header {
     height: 100px;
-    background-color: tomato;
 }
 
 .logo {
@@ -26,22 +34,10 @@ a:hover {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
-}
-
-body {
-    background-color: tomato;
-    font-family: sans-serif;
 }
 
 .container {
     margin-left: 3em;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .nome {
@@ -69,7 +65,6 @@ body {
     top: 35px;
     display: flex;
     justify-content: center;
-    font-family: Ubuntu, sans-serif;
 }
 
 .top__bar {
