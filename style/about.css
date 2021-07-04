@@ -18,7 +18,6 @@ p {
 .hard {
     width: 80%;
     height: 250px;
-    overflow: auto;
     left: 15vw;
 }
 
@@ -41,10 +40,12 @@ p {
 
 .card .title {
     font-weight: bold;
+    background-color: orangered;
 }
 .card .description {
     margin-top: 5%;
     font-size: 0.9em;
+    background-color: orangered;
 }
 
 .tag {
@@ -58,6 +59,7 @@ p {
 
 .levels {
     margin-top: 10%;
+    background-color: orangered;
 }
 
 .level {
@@ -72,4 +74,5 @@ p {
 .tags {
     position: absolute;
     bottom: 5px;
+    background-color: orangered;
 }

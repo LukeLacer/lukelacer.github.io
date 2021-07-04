@@ -20,6 +20,11 @@ header {
     align-items: center;
 }
 
+.navbar_mobile {
+    display: none;
+    cursor: pointer;
+}
+
 .logo img {
     width: 80px;
 }
@@ -74,14 +79,20 @@ span {
         font-size: 50px;
     }
 
-    .top i {
+    .navbar_mobile {
         display: block;
         position: fixed;
-        right: 5px;
+        right: 45px;
     }
   
     nav {
         display: none;
+        position: fixed;
+        height: 200px;
+        width: 100px;
+        top: 140px;
+        right: 40px;
+        flex-direction: column;
     }
   
 }
