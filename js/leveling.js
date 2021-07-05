@@ -4,5 +4,3 @@ Array.from(document.getElementsByClassName(level1)).forEach(
         e.innerHTML = html
     }
 )
-
-//automatizar criação dos "levels" em about na parte de hard skills

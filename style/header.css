@@ -1,0 +1,65 @@
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar_mobile {
+    display: none;
+    cursor: pointer;
+}
+
+.logo object {
+    width: 80px;
+}
+
+nav > a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    height: 43px;
+}
+
+.page-marker {
+    margin-top: 2px;
+    display: none;
+    height: 1px;
+    background: #FF5733;
+    border: 2px solid #FF5733;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background: #00FF00;
+    border: 5px solid #000000;
+    border-radius: 50%;
+}
+
+@media (max-width: 700px) {
+    .navbar_mobile {
+        display: block;
+        position: fixed;
+        right: 45px;
+    }
+    
+    nav {
+        display: none;
+        position: fixed;
+        height: 200px;
+        width: 100px;
+        top: 140px;
+        right: 40px;
+        flex-direction: column;
+    }
+}

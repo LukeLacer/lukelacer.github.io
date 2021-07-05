@@ -1,17 +1,19 @@
 .redes {
-    position:absolute;
+    position: absolute;
     bottom:0;
-    right: auto;
+    right: 0;
     padding: 5px;
     height: 40px;
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     background-color: #0EB36D;
 }
 
 .redes i {
+    background-color: #0EB36D;
     color: #2e2e2e;
+    font-size: 1.7rem;
 }
 
 .fa-facebook:hover {

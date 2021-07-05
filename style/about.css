@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*Skill Cards*/
 
@@ -9,16 +9,15 @@
     }
 }
 
-p {
-    margin: 20px;
+.profile-text-about {
+    text-indent: 4rem;
     text-align: justify;
-    width: 70%;
+    margin-bottom: 50px;
 }
 
 .hard {
     width: 80%;
     height: 250px;
-    overflow: auto;
     left: 15vw;
 }
 
@@ -41,10 +40,12 @@ p {
 
 .card .title {
     font-weight: bold;
+    background-color: orangered;
 }
 .card .description {
     margin-top: 5%;
     font-size: 0.9em;
+    background-color: orangered;
 }
 
 .tag {
@@ -58,6 +59,7 @@ p {
 
 .levels {
     margin-top: 10%;
+    background-color: orangered;
 }
 
 .level {
@@ -72,4 +74,5 @@ p {
 .tags {
     position: absolute;
     bottom: 5px;
+    background-color: orangered;
 }
