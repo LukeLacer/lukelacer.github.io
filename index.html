@@ -6,21 +6,38 @@
     <link rel="shortcut icon" href="./image/logotipo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="./js/typing.js"></script>
+    <script src="./js/page-marker-header.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link type="text/css" rel="stylesheet" href="./style/contact.css">
     <link type="text/css" rel="stylesheet" href="./style/about.css">
     <link type="text/css" rel="stylesheet" href="./style/index.css">
+    <link type="text/css" rel="stylesheet" href="./style/header.css">
     <title>Lucas L Lima</title>
 </head>
 
 <body>
     <header>
-        <a class="logo" href="home.html"><img src="./image/logotipo.svg" alt="Logotipo do site"></a>
+        <a class="logo" id="logo" href="home.html"><img src="./image/logotipo.svg" alt="Logotipo do site"></a>
         <i class="fas fa-bars navbar_mobile"></i>
         <nav>
-            <a href="about.html">ABOUT</a>
-            <a href="contact.html">CONTACT</a>
-            <a href="works.html">PROJECTS</a>
+            <a id="about-link" href="about.html">
+                ABOUT
+                <div class="page-marker" id="about-marker">
+                    <div class="dot"></div>
+                </div>
+            </a>
+            <a id="contact-link" href="contact.html">
+                CONTACT
+                <div class="page-marker" id="contact-marker">
+                    <div class="dot"></div>
+                </div>
+            </a>
+            <a id="works-link" href="works.html">
+                PROJECTS
+                <div class="page-marker" id="works-marker">
+                    <div class="dot"></div>
+                </div>
+            </a>
         </nav>
     </header>
     <section id="conteudo">

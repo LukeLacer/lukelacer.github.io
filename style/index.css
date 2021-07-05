@@ -8,35 +8,11 @@
     background-color: black;
     color: white;
     font-family: Roboto, sans-serif;
+    font-size: 20px;
 }
 
 body {
     padding: 40px 40px 0px 40px;
-}
-
-header {
-    height: 100px;
-    display: flex;
-    align-items: center;
-}
-
-.navbar_mobile {
-    display: none;
-    cursor: pointer;
-}
-
-.logo img {
-    width: 80px;
-}
-
-a:hover {
-    text-shadow: 1px 2px #0EB36D;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .container {
@@ -52,17 +28,12 @@ a {
 
 .nome h1 {
     font-family: IBM Plex Mono, monospace;
-    font-size: 110px;
-}
-
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+    font-size: 5.5rem;
 }
 
 /*THIS IS FOR TYPEWRITER EFFECT (CURSOR)*/
 span {
+    font-size: 5.5rem;
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
 }
@@ -77,22 +48,5 @@ span {
 @media (max-width: 700px) {
     .nome h1 {
         font-size: 50px;
-    }
-
-    .navbar_mobile {
-        display: block;
-        position: fixed;
-        right: 45px;
-    }
-  
-    nav {
-        display: none;
-        position: fixed;
-        height: 200px;
-        width: 100px;
-        top: 140px;
-        right: 40px;
-        flex-direction: column;
-    }
-  
+    }  
 }
