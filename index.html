@@ -1,67 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="./image/logotipo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="./js/typing.js"></script>
-    <script src="./js/page-marker-header.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link type="text/css" rel="stylesheet" href="./style/contact.css">
-    <link type="text/css" rel="stylesheet" href="./style/about.css">
-    <link type="text/css" rel="stylesheet" href="./style/works.css">
-    <link type="text/css" rel="stylesheet" href="./style/index.css">
-    <link type="text/css" rel="stylesheet" href="./style/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="./style/index.css" />
     <title>Lucas L Lima</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <a class="logo" id="logo" href="home.html">
-            <object type="image/svg+xml" data="./image/logotipo.svg">Your browser does not support SVG</object>
-        </a>
-        <i class="fas fa-bars navbar_mobile"></i>
-        <nav>
-            <a id="about-link" href="about.html">
-                ABOUT
-                <div class="page-marker" id="about-marker">
-                    <div class="dot"></div>
-                </div>
-            </a>
-            <a id="contact-link" href="contact.html">
-                CONTACT
-                <div class="page-marker" id="contact-marker">
-                    <div class="dot"></div>
-                </div>
-            </a>
-            <a id="works-link" href="works.html">
-                PROJECTS
-                <div class="page-marker" id="works-marker">
-                    <div class="dot"></div>
-                </div>
-            </a>
-        </nav>
+  <body>
+    <header class="website-header">
+      <a class="nav-link" id="logo" href="index.html"> Lucas L Lima </a>
+      <i class="fas fa-bars navbar_mobile"></i>
+      <nav class="nav-wrapper">
+        <div class="link-wrapper">
+          <a class="nav-link" id="about-link" href="about.html"> ABOUT </a>
+        </div>
+        <div class="link-wrapper">
+          <a class="nav-link" id="contact-link" href="contact.html">
+            CONTACT
+          </a>
+        </div>
+        <div class="link-wrapper">
+          <a class="nav-link" id="works-link" href="works.html"> PROJECTS </a>
+        </div>
+      </nav>
     </header>
     <section id="conteudo">
-        <div class="nome">
-            <h1>Lucas L Lima</h1>
-        </div>
+      <div class="nome">
+        <h1>Lucas L Lima</h1>
+      </div>
     </section>
-
-    <script>
-        document.querySelectorAll('a').forEach(link => {
-            const conteudo = document.getElementById('conteudo')
-
-            link.onclick = function(e) {
-                e.preventDefault()
-                fetch(link.href)
-                    .then(resp => resp.text())
-                    .then(html => conteudo.innerHTML = html)
-            }
-        })
-    </script>
-
-</body>
-
+  </body>
 </html>
